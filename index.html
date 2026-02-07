@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankita Pawar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ankita Pawar</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#internships" class="nav-link">Internships</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <h1 class="hero-title" id="hero-title">
+                        <span>Hi, I'm </span><span class="highlight">Ankita Pawar</span>
+                    </h1>
+                    <p class="hero-subtitle">Information Technology B.Tech Student</p>
+                    <p class="hero-summary">
+                        Passionate about building scalable web applications and exploring AI/ML solutions. 
+                        Currently pursuing B.Tech in IT with hands-on experience in full-stack development, 
+                        databases, and modern software engineering practices.
+                    </p>
+                    <p class="hero-focus">
+                        <strong>Focus Areas:</strong> Web Development, Artificial Intelligence & Machine Learning, Software Engineering
+                    </p>
+                    <div class="hero-resume">
+                        <a href="resume.pdf" target="_blank" class="btn-resume">
+                            <i class="fas fa-file-pdf"></i> View Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:ankita.pawarr19.com" target="_blank" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/AnkitaPawar04" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/AnkitaPawar04" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="profile.jpg" alt="Ankita Pawar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a third-year B.Tech Information Technology student with strong foundations in software development, databases, and emerging technologies such as Artificial Intelligence and Machine Learning.</p>
+                    <p>I have hands-on experience building academic and real-world projects that focus on problem-solving, system design, and user-centric applications.</p>
+                    <p>I am passionate about developing scalable web applications, exploring AI-driven solutions, and continuously enhancing my technical skill set through projects, internships, and certifications.</p>
+                    <p class="highlight-text">I am seeking opportunities to apply my knowledge in real-world environments and grow as a software engineer.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Major Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <h4>Information Technology</h4>
+                        <p class="education-institute">Vidyalankar Institute of Technology</p>
+                        <p class="education-year">2024 - 2027</p>
+                        <p class="education-year">Current CGPA 10</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Diploma</h3>
+                        <h4>Information Technology</h4>
+                        <p class="education-institute">Government Polytechnic Thane</p>
+                        <p class="education-year">2021- 2023</p>
+                        <p class="education-year">Percentage: 92%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <!-- Languages Section -->
+            <div class="skill-category-wrapper">
+                <h3 class="category-title">
+                    <i class="fas fa-code"></i> Programming Languages
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-cuttlefish"></i>
+                        </div>
+                        <h3>C</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>C++</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3>Bash</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Databases Section -->
+            <div class="skill-category-wrapper">
+                <h3 class="category-title">
+                    <i class="fas fa-database"></i> Databases
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>PostgreSQL</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>phpMyAdmin</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frameworks & Libraries Section -->
+            <div class="skill-category-wrapper">
+                <h3 class="category-title">
+                    <i class="fas fa-layer-group"></i> Frameworks & Libraries
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React.js</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <h3>Laravel</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h3>Node.js</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Platforms Section -->
+            <div class="skill-category-wrapper">
+                <h3 class="category-title">
+                    <i class="fas fa-tools"></i> Tools & Platforms
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>SiteTwin <br>
+                        Construction Field Management System</h3>
+                    <p>An app designed to manage construction site operations efficiently.</p>
+                    <p class="project-description">This comprehensive platform streamlines construction management with project tracking, workforce allocation, resource management, and centralized data handling for all construction activities.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Flutter</span>
+                        <span class="tech-badge">Laravel</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="project-btn" onclick="showProjectDetails(0)">
+                            Explore Project <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <a href="https://github.com/AnkitaPawar04/SiteTwin-Construction-Management-System" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>AI/ML-Based Hybrid Movie Recommendation System</h3>
+                    <p>A recommendation engine using hybrid approach combining content-based and collaborative filtering.</p>
+                    <p class="project-description">Delivers personalized movie recommendations by analyzing user preferences, viewing history, and movie attributes using advanced hybrid AI techniques for improved accuracy.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Machine Learning</span>
+                        <span class="tech-badge">Data Analysis</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="project-btn" onclick="showProjectDetails(1)">
+                            Explore Project <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <a href="https://github.com/AnkitaPawar04/AI-ML-Hybrid-Movie-Recommendation" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Administration Platform</h3>
+                    <p>A centralized platform developed to manage academic activities digitally.</p>
+                    <p class="project-description">Provides comprehensive management of student information, faculty profiles, course registration, academic records, and secure role-based access control for educational institutions.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Advanced Java</span>
+                        <span class="tech-badge">Swing</span>
+                        <span class="tech-badge">phpMyAdmin</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="project-btn" onclick="showProjectDetails(2)">
+                            Explore Project <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <a href="https://github.com/AnkitaPawar04/Academic-Administration-Platform" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>CivicFix – Local Issue Reporting Platform</h3>
+                    <p>A civic engagement platform allowing citizens to report local issues to authorities.</p>
+                    <p class="project-description">Bridges the gap between citizens and local administration with location-based issue mapping, photo uploads, status tracking, and improved communication channels for civic problems.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Web Technologies</span>
+                        <span class="tech-badge">Backend Services</span>
+                        <span class="tech-badge">Laravel</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="project-btn" onclick="showProjectDetails(3)">
+                            Explore Project <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <a href="https://github.com/AnkitaPawar04/CivicFix" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional certifications and completed courses</p>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>International Level Student Workshop</h3>
+                        <p class="cert-issuer">Pallavi Engineering College</p>
+                        <p class="cert-date">February 2024</p>
+                        <p class="cert-description">Hands-on workshop covering Python fundamentals for data science, including data analysis concepts, basic data handling, and practical exposure to real-world datasets.</p>
+                        <a href="https://drive.google.com/file/d/1NmsbFI-t8pjS0UCIesSLESVL2rYHs0aG/view?usp=drive_link" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oscillation 2025 – Hackathon Participation</h3>
+                        <p class="cert-issuer">Vasantdada Patil Pratishthan’s College of Engineering & Visual Arts</p>
+                        <p class="cert-date">March 2025</p>
+                        <p class="cert-description">Participated in a technical hackathon focused on problem-solving, teamwork, and applying engineering concepts in a competitive, time-bound environment.</p>
+                        <a href="https://drive.google.com/file/d/1R08xuHrMB5MSSci7An0f-mzKJ98ovSuv/view?usp=drive_link" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Introduction to the Fundamentals of Databases</h3>
+                        <p class="cert-issuer">Simplilearn SkillUp</p>
+                        <p class="cert-date">March 2025</p>
+                        <p class="cert-description">Gained foundational knowledge of database concepts, data modeling, SQL basics, and relational database principles essential for backend and data-driven applications.</p>
+                        <a href="https://drive.google.com/file/d/1a0lEJFauxI1MLqE5VhpJMGydG3o_1LgS/view?usp=drive_link" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="internships">
+        <div class="container">
+            <h2 class="section-title">Internships</h2>
+            <p class="section-subtitle">Current professional experiences and learning opportunities</p>
+            <div class="internships-grid">
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="internship-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="internship-status active">
+                            <i class="fas fa-circle"></i> Active
+                        </div>
+                    </div>
+                    <div class="internship-content">
+                        <h3>Web Developer Intern</h3>
+                        <p class="company-name">UpToSkills</p>
+                        <p class="internship-period">Start Date - Present</p>
+                        <p class="internship-description">Developing and maintaining web applications, working with front-end and back-end technologies, and collaborating on various web development projects.</p>
+                        <div class="internship-skills">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <div class="internship-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="internship-status active">
+                            <i class="fas fa-circle"></i> Active
+                        </div>
+                    </div>
+                    <div class="internship-content">
+                        <h3>Game Developer Intern</h3>
+                        <p class="company-name">Silo Entertainments</p>
+                        <p class="internship-period">9th Feb 2026- Present</p>
+                        <p class="internship-description">Designing and developing game mechanics, implementing gameplay features, and working on interactive game projects using modern game development tools.</p>
+                        <div class="internship-skills">
+                            <span class="skill-tag">Unity</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Game Design</span>
+                            <span class="skill-tag">2D/3D</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Training</h2>
+            <div class="achievements-content">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>National Level Hackathon – Quasar 4.0</h3>
+                    <p>Secured a position among the Top 60 teams nationwide in a 24-hour national-level hackathon, demonstrating strong problem-solving, innovation, and teamwork skills.</p>
+                    <a href="https://drive.google.com/file/d/1nnL5WvJhvypNwQ-yM0IjNi9-3OXwhJg4/view?usp=drive_link" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>AI & Machine Learning Training at Ignitech</h3>
+                    <p>Completed a 6-week training and internship focused on Artificial Intelligence and Machine Learning, gaining practical exposure to core ML concepts and real-world applications.</p>
+                    <a href="https://drive.google.com/file/d/1PnRHvlhayDjgnVMcSwXN0v-3FM37iO2F/view?usp=drive_link" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Microwave Satellite Data Processing IIT Bombay</h3>
+                    <p>Participated in an advanced academic program on satellite data processing, gaining insights into microwave remote sensing concepts and data analysis techniques.</p>
+                    <a href="https://drive.google.com/file/d/1ZsVHqhLsc1E_mcMUVQnpfPAgM8ZGqlkJ/view?usp=drive_link" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I am open to internships, project collaborations, and learning opportunities.</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:ankita.pawarr19@gmail.com">ankita.pawarr19@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/AnkitaPawar04" target="_blank">AnkitaPawar04</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/AnkitaPawar04" target="_blank">AnkitaPawar04</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Ankita Pawar. All rights reserved.</p>
+            <p>Information Technology Student </p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
